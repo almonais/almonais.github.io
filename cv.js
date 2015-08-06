@@ -10,8 +10,9 @@ $(function() {
         dataType: "json",
         success: function(data){
           $('#contact_container').empty();
-          $('#contact_container').html("<h3>Thank You</h3><p>Your request has been sent and I will get in touch with you soon.");
-        }
-      });
+          $('#contact_container').html("<h3>Merci !</h3><p>Votre message a été envoyé !");
+        		}
+    		});
+		}
 	});
 });

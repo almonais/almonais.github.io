@@ -50,30 +50,28 @@
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Me contacter</h4>
-      </div>
-      <div class="contact-container">
-          <div class="modal-body">
-          <form id="form-contact" action="//formspree.io/nsalcaraz@gmail.com" method="POST" class="form-horizontal">
-            <input type="text" name="_gotcha" style="display:none" />
-            <input type="hidden" name="_subject" value="Contact" />
-            <div class="votrenom">
-                <input type="text" id="your_name" name="name" placeholder="Votre nom" />
-            </div>
-            <div class="votreemail">
-                <input type="email" id="your_email" name="_replyto" placeholder="Votre email" />
-            </div>
-            <div class="votremessage">
-                <textarea name="message" id="your_message" placeholder="Votre message" rows="5"></textarea>
-            </div>
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Me contacter</h4>
+        </div>
+        <div class="modal-body">
+            <form id="form-contact" action="//formspree.io/nsalcaraz@gmail.com" method="POST" class="form-horizontal">
+                <input type="text" name="_gotcha" style="display:none" />
+                <input type="hidden" name="_subject" value="Contact" />
+                <div class="votrenom">
+                    <input type="text" id="your_name" name="name" placeholder="Votre nom" />
+                </div>
+                <div class="votreemail">
+                    <input type="email" id="your_email" name="_replyto" placeholder="Votre email" />
+                </div>
+                <div class="votremessage">
+                    <textarea name="message" id="your_message" placeholder="Votre message" rows="5"></textarea>
+                </div>
             </form>
-            </div>
-            <div class="modal-footer">
+        </div>
+        <div class="modal-footer">
             <button type="button" class="btn btn-default" data-dismiss="modal">Annuler</button>
             <button type="button" class="btn btn-primary" id="button-send-form">Envoyer</button>
-            </div>
         </div>
     </div>
   </div>
