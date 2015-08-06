@@ -133,6 +133,7 @@
     letter-spacing: 4px;
     text-align: center;
     margin-bottom: 10px;
+    margin-left: 20px;
 }
 
 #titleadress > p{
@@ -140,6 +141,12 @@
 }
 
 .btn-lg {
+    background-color: #1ABC9C !important;
+    border-width: 0 !important;
+    letter-spacing: 2px;
+}
+
+.cvpdf{
     background-color: #1ABC9C !important;
     border-width: 0 !important;
     letter-spacing: 2px;
@@ -165,6 +172,8 @@
 #sociaux{
     margin-top: 10px;
 }
+
+
 
 .timeline {
     list-style: none;
