@@ -31,7 +31,6 @@ body {
 
 .descriptif{
     font-size: 20px;
-    letter-spacing: 3px;
 }
 
 .social{
@@ -120,7 +119,6 @@ body {
     border-width: 2px;
     border-style: dashed;
     font-size: 20px;
-    letter-spacing: 4px;
     text-align: center;
     margin-bottom: 10px;
 }
@@ -132,13 +130,11 @@ body {
 .btn-lg {
     background-color: #1ABC9C !important;
     border-width: 0 !important;
-    letter-spacing: 2px;
 }
 
 .cvpdf{
     background-color: #1ABC9C !important;
     border-width: 0 !important;
-    letter-spacing: 2px;
 }
 
 #your_name, #your_email{
@@ -148,14 +144,12 @@ body {
     border-right: 0;
     border-left: 0;
     width: 80%;
-    letter-spacing: 1px;
 }
 
 #your_message {
     margin-bottom: 10px;
     width: 80%;
     resize: none;
-    letter-spacing: 1px;
 }
 
 #sociaux{
@@ -216,7 +210,6 @@ body {
     border-radius: 5px;
     position: relative;
     border-radius: 5px;
-    letter-spacing: 2px;
 }
 
 .timeline-body{
@@ -289,7 +282,6 @@ body {
 .timeline-heading h4 {
     font-size: 28px;
     font-weight: bold;
-    letter-spacing: 2px;
     padding: 0 15px;
     text-align: center;
 
@@ -298,7 +290,6 @@ body {
 .timeline-footer {
     padding: 5px 15px;
     font-size: 15px;
-    letter-spacing: 1px;
 }
 
 .timeline-footer p { margin-bottom: 0; }
