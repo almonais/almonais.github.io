@@ -214,6 +214,7 @@ body {
 
 .timeline-body{
     margin: 10px;
+    font-size: 17px;
 }
 
 .timeline > li > .timeline-panel:hover {
