@@ -3,12 +3,11 @@
 }
 
 @font-face {
-    font-family: 'police1';
-    src: url('police1.ttf') format('truetype');
+    font-family: 'Poiret One', cursive;
 }
 
 body {
-    font-family: 'police1';
+    font-family: 'Poiret One';
 }
 
 .avatar-section {
