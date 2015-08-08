@@ -41,49 +41,49 @@ body {
 }
 
 .twitter{
-    background-image:url('twitter-black.png');
+    background-image:url('images/twitter-black.png');
     width: 64px;
     height: 64px;
 }
 
 .twitter:hover{
-    background-image:url('twitter-color.png');
+    background-image:url('images/twitter-color.png');
     width: 64px;
     height: 64px;
 }
 
 .linkedin{
-    background-image: url('linkedin-black.png');
+    background-image: url('images/linkedin-black.png');
     width: 64px;
     height: 64px;
 }
 
 .linkedin:hover{
-    background-image: url('linkedin-color.png');
+    background-image: url('images/linkedin-color.png');
     width: 64px;
     height: 64px;
 }
 
 .skype{
-    background-image: url('skype-black.png');
+    background-image: url('images/skype-black.png');
     width: 64px;
     height: 64px;
 }
 
 .skype:hover{
-    background-image: url('skype-color.png');
+    background-image: url('images/skype-color.png');
     width: 64px;
     height: 64px;
 }
 
 .facebook{
-    background-image: url('facebook-black.png');
+    background-image: url('images/facebook-black.png');
     width: 64px;
     height: 64px;
 }
 
 .facebook:hover{
-    background-image: url('facebook-color.png');
+    background-image: url('images/facebook-color.png');
     width: 64px;
     height: 64px;
 }
@@ -361,4 +361,108 @@ body {
     .timeline > li.timeline-inverted > .timeline-badge {
         left: 28px;
     }
+}
+
+#left{
+    width: 20% !important;
+}
+
+#competence{
+    width: 60% !important;
+}
+
+.competences{
+    list-style: none;
+    float: left;
+}
+
+#c {
+    background-image: url('images/c.png');
+    height: 98px;
+    width: 97px;
+}
+
+#html{
+    background-image: url('images/html.png');
+    height: 98px;
+    width: 97px;
+}
+
+#css{
+    background-image: url('images/css.png');
+    height: 98px;
+    width: 97px;
+}
+
+#php{
+    background-image: url('images/php.png');
+    height: 98px;
+    width: 97px;
+}
+
+#js{
+    background-image: url('images/js.png');
+    height: 98px;
+    width: 97px;
+}
+
+#ps{
+    background-image: url('images/ps.png');
+    height: 98px;
+    width: 97px;
+}
+
+#left-interet{
+    width: 25% !important;
+}
+
+#interet{
+    width: 50% !important;
+}
+
+.interets{
+    list-style: none;
+    float: left;
+}
+
+#airplane2x{
+    background-image: url('images/airplane2x.png');
+    height: 64px;
+    width: 64px;
+}
+
+#cupcake2x{
+    background-image: url('images/cupcake2x.png');
+    height: 64px;
+    width: 64px;
+}
+
+#piano2x{
+    background-image: url('images/piano2x.png');
+    height: 64px;
+    width: 64px;
+}
+
+#chip2x{
+    background-image: url('images/chip2x.png');
+    height: 64px;
+    width: 64px;
+}
+
+#mask2x{
+    background-image: url('images/mask2x.png');
+    height: 64px;
+    width: 64px;
+}
+
+#g-clef2x{
+    background-image: url('images/g-clef2x.png');
+    height: 64px;
+    width: 64px;
+}
+
+#biere{
+    background-image: url('images/biere.png');
+    height: 64px;
+    width: 64px;
 }
