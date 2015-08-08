@@ -13,7 +13,7 @@ $(function() {
 	        dataType: "json",
 	        success: function(data){
 	        	$("#form-modal").empty();
-	        	$("#form-modal").html("Merci ! <br/><button type=\"button\" class=\"btn btn-default\" data-dismiss=\"modal\">Fermer</button>");
+	        	$("#form-modal").html("<div style=\"padding: 10px;\">Merci !<br/><br/><button type=\"button\" class=\"btn btn-default\" data-dismiss=\"modal\">Fermer</button></div>");
 	        }
 		});
 	});
